@@ -1,6 +1,6 @@
 cask "autopair" do
-  version "1.2.4"
-  sha256 "5ae30c1e7ba37f30c5db590b8b2ac605f4a1d9960dce59c3d47dee9526f8741e"
+  version "1.2.5"
+  sha256 "ec3456fde781bc544c125b3842fca860e52ea03dbd00f474c853300d43e23e0f"
 
   url "https://github.com/ericclemmons/autopair/releases/download/v#{version}/AutoPair.zip"
   name "AutoPair"
@@ -8,4 +8,9 @@ cask "autopair" do
   homepage "https://github.com/ericclemmons/autopair"
 
   app "AutoPair.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/AutoPair.app"]
+  end
 end
