@@ -1,6 +1,6 @@
 cask "autopair" do
-  version "1.2.5"
-  sha256 "ec3456fde781bc544c125b3842fca860e52ea03dbd00f474c853300d43e23e0f"
+  version "1.2.6"
+  sha256 "df5f7344272d92a0ae5cdffe8d83256413a9277340f1dbee5d46534594a4ca30"
 
   url "https://github.com/ericclemmons/autopair/releases/download/v#{version}/AutoPair.zip"
   name "AutoPair"
