@@ -1,9 +1,9 @@
 class AgentNative < Formula
   desc "Control macOS native apps via the Accessibility tree for AI agents"
   homepage "https://github.com/ericclemmons/agent-native"
-  version "0.1.2"
+  version "0.1.3"
   url "https://github.com/ericclemmons/agent-native/releases/download/v#{version}/agent-native-macos.tar.gz"
-  sha256 "54c69904a2785466f4b0636328bf646e0cd95c8f621980c1a925ee31e1b2c2fa"
+  sha256 "361c8d74a6a8e7180c9079b6ccce2f8e4fb267abf37f0507f65f3782e79ff29a"
 
   depends_on :macos
 
