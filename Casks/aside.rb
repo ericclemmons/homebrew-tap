@@ -1,6 +1,6 @@
 cask "aside" do
-  version "0.0.23"
-  sha256 "aef9550f02ab13db6c98cfb7b52e6555a8f0d39738ea0c68975af026b3fed1d2"
+  version "0.0.28"
+  sha256 "121af441acab103166644be4d62bb51e3c70eef325e4525fc0fd856ea4f4afff"
 
   url "https://github.com/ericclemmons/aside/releases/download/v#{version}/Aside.zip"
   name "Aside"
