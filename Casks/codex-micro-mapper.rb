@@ -1,6 +1,6 @@
 cask "codex-micro-mapper" do
-  version "0.1.1"
-  sha256 "00fe75cbba5c55a3d5bbf186ca2dbaa95221d89a38d39069373b88b4e4be1007"
+  version "0.1.2"
+  sha256 "1037d7ed9a24d8a311030dd0c06a296f2f1d4a65da431773cd7e62406b9e7686"
 
   url "https://github.com/ericclemmons/codex-micro-mapper/releases/download/v#{version}/Codex-Micro-Mapper.zip"
   name "Codex Micro Mapper"
