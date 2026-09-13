@@ -1,10 +1,10 @@
 cask "autopair" do
-  version "1.2.16"
-  sha256 "01ef93bcaf39b843e88f190e94318336e3b09741c9cbfdc02c256a8cbe928c00"
+  version "1.2.18"
+  sha256 "99468e2db1ebdbe50b11e1de9884a43414226e3fd24c9d9031865bdb2e38e94f"
 
   url "https://github.com/ericclemmons/autopair/releases/download/v#{version}/AutoPair.zip"
   name "AutoPair"
-  desc "Automatically connect Bluetooth devices when plugged into power"
+  desc "Hand off Bluetooth devices using a display or dock ownership trigger"
   homepage "https://github.com/ericclemmons/autopair"
 
   app "AutoPair.app"
