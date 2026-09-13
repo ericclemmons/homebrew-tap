@@ -1,10 +1,10 @@
 cask "autopair" do
-  version "1.2.18"
-  sha256 "99468e2db1ebdbe50b11e1de9884a43414226e3fd24c9d9031865bdb2e38e94f"
+  version "1.2.19"
+  sha256 "007d6f282939f023accc049db0a5291b55d37f6472a2ae42199583661f5f0553"
 
   url "https://github.com/ericclemmons/autopair/releases/download/v#{version}/AutoPair.zip"
   name "AutoPair"
-  desc "Hand off Bluetooth devices using a display or dock ownership trigger"
+  desc "Hand off Bluetooth devices using display or connected-hardware triggers"
   homepage "https://github.com/ericclemmons/autopair"
 
   app "AutoPair.app"
